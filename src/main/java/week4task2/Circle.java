@@ -1,6 +1,6 @@
 package week4task2;
 
-public class Circle extends Shape{
+class Circle extends Shape{
     private double radius;
 
     public Circle (String color, FillType fill, double radius){
@@ -21,14 +21,19 @@ public class Circle extends Shape{
     }
 
     @Override
-    public double getArea(double area){
+    public double getArea(){
         double pi = 3.14;
-        return area = pi * (radius*radius);
+        double area = pi * (radius*radius);
+        return area;
     }
+
+
+
+
     public double calculateCircumference(double pi, double r){
         return 2*pi*r;
     }
-    public double calculateCitcumference(double r){
+    public double calculateCircumference(double r){
         double pi=3.14;
         return 2*pi*r;
     }

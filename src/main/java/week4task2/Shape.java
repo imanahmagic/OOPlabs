@@ -36,8 +36,9 @@ public abstract class Shape {
     }
 
     public double getArea(){
+
         return area;
     }
 
-    public abstract double getArea(double area);
+
 }
