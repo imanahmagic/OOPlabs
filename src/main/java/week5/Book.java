@@ -28,7 +28,7 @@ public class Book implements ToBeStored{
     }
     @Override
     public double weight(){
-        return 0;
+        return this.weight;
     }
 
     public String toString(){
