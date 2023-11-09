@@ -31,23 +31,20 @@ public class MaxWeightBox extends Box{
     }
     @Override
     public boolean isInTheBox(Thing thing){
+        return true;
+    }
+
+
+    public void isInTheBox(new Thing){
+        Thing thing = new Thing("");
+        Thing full_thing = new Thing("", 0.0);
         if(thing.equals(thing.getName())){
-            return true;
+            System.out.println("true");
         }
         else{
-            return false;
+            System.out.println("false");
         }
-
     }
-    public String toString(){
-        Thing thing = null;
-        if(isInTheBox(thing) == true){
-            return "true";
-        }
-        else{
-            return "false";
-        }
 
 
-    }
 }
