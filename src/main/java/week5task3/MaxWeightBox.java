@@ -35,7 +35,7 @@ public class MaxWeightBox extends Box{
     }
 
 
-    public void isInTheBox(new Thing){
+    public void isInTheBox(){
         Thing thing = new Thing("");
         Thing full_thing = new Thing("", 0.0);
         if(thing.equals(thing.getName())){
